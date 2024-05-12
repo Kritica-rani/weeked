@@ -15,7 +15,7 @@ const fetchData = async () => {
     const result = await data.json();
     renderDataOnUi(result);
   } catch (err) {
-    console.log("error in fetching datass", err);
+    console.log("error in fetching data", err);
   }
 };
 const renderDataOnUi = (data) => {
